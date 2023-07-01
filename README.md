@@ -70,14 +70,12 @@ Get the result from Step 2
 
 **def sumOfDoubleEvenPlace(number):**
 
-Return this number if it is a single digit, otherwise, return
-
-the sum of the two digits
+Return this number if it is a single digit, otherwise, return the sum of the two digits
 
 
 **def getDigit(number):**
 Return sum of odd place digits in number
-
+\n
 
 **def sumOfOddPlace(number):**
 
