@@ -69,22 +69,33 @@ def isValid(number):
 Get the result from Step 2
 
 def sumOfDoubleEvenPlace(number):
+
 Return this number if it is a single digit, otherwise, return
+
 the sum of the two digits
+
 
 def getDigit(number):
 Return sum of odd place digits in number
 
+
 def sumOfOddPlace(number):
+
 Return true if the digit d is a prefix for number
 
+
 def prefixMatched(number, d):
+
 Return the number of digits in d
 
+
 def getSize(d):
+
 Return the first k number of digits from number. If the number of digits in number is less than k, return number.
 
+
 def getPrefix(number, k):
+
 The condition is that cards have 13 and 16 digits, and cards all start with
 •	4 for Visa cards
 •	5 for MasterCard credit cards
