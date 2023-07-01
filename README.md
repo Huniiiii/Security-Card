@@ -112,18 +112,23 @@ https://www.validcreditcardnumber.com/
 ---------------------------------------------------------------------------------------
 Part 3
 To create a class called User
+
 And create function __ init__ which contain name, age password, cardNumber
+
 We need to encapsulation all the name, age, password and cardNumber
+
 Because we encapsulate the name, age ,password and cardNumber, we also want to get those. 
+
 Which means that we need to create the function getName, getAge, getPassword (we also want to hide the users’ password and we also show first 3 digits number other digits we want to hide using *) 
-for example: self.__huniPassword [:3] + “*” * (len(self.__huniPassword) -3).
- 
-and getCardNumber. And we return those.
+
+for example: self.__huniPassword [:3] + “*” * (len(self.__huniPassword) -3). And getCardNumber. And we return those.
 
 Create another class called GoodUser(User):
+
 we want to use User class name, age, password, cardNumber. 
-We need to use super(). And want to want self.status = “Valid” in the end of GoodUser class
-same process for bad user we want to create class called BadUser(User):
+
+We need to use super(). And want to want self.status = “Valid” in the end of GoodUser class same process for bad user we want to create class called BadUser(User):
+
 We need to use super(). And want to want self.status = “Invalid” in the end of BadUser class
 
 
