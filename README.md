@@ -41,9 +41,13 @@ Finally, we want to write users’ information into information.txt. ###we have 
 ![image](https://github.com/Huniiiii/Security-Card/assets/87155903/42b30f09-3b44-40fb-a109-f19b8cfde0fb)
  
 **user.getName()
+
 user.getAge()
+
 user.getPassword()
+
 user.getCardNumber()
+
 user.status**
 
 Create a file called checkValid.py
