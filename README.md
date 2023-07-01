@@ -64,23 +64,27 @@ Number is the card number, we can check the code by entering your real card numb
   5.	If the result from Step 4 can be divisible by 10, the card number is valid, otherwise, it is invalid.
 
 We are going to use the next function I listed
-# Return true if the card number is valid#
+Return true if the card number is valid
 def isValid(number):
-# Get the result from Step 2#
-def sumOfDoubleEvenPlace(number):
-# Return this number if it is a single digit, otherwise, return#
-# the sum of the two digits#
-def getDigit(number):
-# Return sum of odd place digits in number#
-def sumOfOddPlace(number):
-# Return true if the digit d is a prefix for number#
-def prefixMatched(number, d):
-# Return the number of digits in d#
-def getSize(d):
-# Return the first k number of digits from number. If the#
-# number of digits in number is less than k, return number.#
-def getPrefix(number, k):
+Get the result from Step 2
 
+def sumOfDoubleEvenPlace(number):
+Return this number if it is a single digit, otherwise, return
+the sum of the two digits
+
+def getDigit(number):
+Return sum of odd place digits in number
+
+def sumOfOddPlace(number):
+Return true if the digit d is a prefix for number
+
+def prefixMatched(number, d):
+Return the number of digits in d
+
+def getSize(d):
+Return the first k number of digits from number. If the number of digits in number is less than k, return number.
+
+def getPrefix(number, k):
 The condition is that cards have 13 and 16 digits, and cards all start with
 •	4 for Visa cards
 •	5 for MasterCard credit cards
