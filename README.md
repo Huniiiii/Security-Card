@@ -24,8 +24,11 @@ We need this effect
 ![image](https://github.com/Huniiiii/Security-Card/assets/87155903/59908db7-b6a9-48a3-89ed-bf1869d163aa)
 
 •	So, if we want to get this kind of effect, we need to print(f”---User{i+1}---")
+
 •	And we want to get the user’s name, age and password (password we want to ask the user to enter at least 6 characters, whatever letters or numbers), like the above photo. 
+
 •	In case we need to define, is the user enters at least six characters. (using a while loop or if depend on personal habit, I personal recommend to use while loop. Because we want to make sure that users input at least six characters, if not we want to ask again if we use for loop, can only be used a certain number of times. Using While True we can ask many times we want. And end it if the user's input meets the condition.)
+
 •	Ask the user for the card number using print(cardNumber)
 
 ---------------------------------------------------------------------------------------
